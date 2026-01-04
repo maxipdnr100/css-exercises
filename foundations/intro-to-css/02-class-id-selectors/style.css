@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+.class01 {
+    background-color: #f1a8a8;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#number02 {
+    color: #143dc5;
+    font-size: 36px;
+}
+
+.class01#cooler {
+    font-size: 24px;
+}
+
+#another_id {
+    background-color: #b9f3b4;
+    font-size: 24px;
+    font-weight: bold;
+}
