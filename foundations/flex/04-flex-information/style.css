@@ -7,11 +7,29 @@ img {
   height: 100px;
 }
 
+.the-table {
+  margin: 50px;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 
+.image {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
