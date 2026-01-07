@@ -4,24 +4,39 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 600px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px auto;
+  /* Hmm... */
+  margin-top: -10px;
+  /* Must have been the wind... */
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 5px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 20px 40px;
+  /* This works. I don´t know why.*/
+  margin: 10px auto;
 }
